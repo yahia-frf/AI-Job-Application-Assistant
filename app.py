@@ -14,7 +14,7 @@ from pdf_generator import (
 # ----------------------
 # CONFIG
 # ----------------------
-GOOGLE_API_KEY = "AIzaSyBsNI2KwpXMxM4xGE-Qq9zY6z_EnsSAzJU"  # <-- Replace with your Gemini API key
+GOOGLE_API_KEY = "your_api_key"  # <-- Replace with your Gemini API key
 MODEL_NAME = "models/gemini-2.0-flash"  # or change if needed
 
 genai.configure(api_key=GOOGLE_API_KEY)
